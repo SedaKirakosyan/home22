@@ -36,12 +36,12 @@ display the text."""
 # d = []
 # for i in a.readlines():
 # 	for j in i.split():
-# 		try:
-# 			for number in j:
-# 				int(number)
+# 		for number in j:
+# 			try:
+# 				number = int(number)
 # 				d.append(number)
-# 		except ValueError:
-# 			continue
+# 			except ValueError:
+# 				continue
 # print(d)
 
 """6.Write a python program to get login and password."""
