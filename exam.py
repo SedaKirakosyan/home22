@@ -54,31 +54,31 @@
 # print(res.g())
 
 """Task3"""
-import random
-class Harry:
-	def __init__(self,f,s,t):
-		self.f = f
-		self.s = s
-		self.t = t 
-	def ch(self):
-		f = self.f 
-		s = self.s 
-		t = self.t
-		sample = [f,s,t]
-		point = 0
-		for i in range(3):
-			c= random.choice(sample)
-			if c == sample[i]:
-				point += 1
-				print(c,point)
-			else:
-				point -= 1
-				print(c,point)
-		if point >= 2:
-			return "You win"
-		else: 
-			return "You lose"	
-res = Harry("Avada Kedavra","Crucio","Imperio")
-print(res.ch())
+# import random
+# class Harry:
+# 	def __init__(self,f,s,t):
+# 		self.f = f
+# 		self.s = s
+# 		self.t = t 
+# 	def ch(self):
+# 		f = self.f 
+# 		s = self.s 
+# 		t = self.t
+# 		sample = [f,s,t]
+# 		point = 0
+# 		for i in range(3):
+# 			c= random.choice(sample)
+# 			if c == sample[i]:
+# 				point += 1
+# 				print(c,point)
+# 			else:
+# 				point -= 1
+# 				print(c,point)
+# 		if point >= 2:
+# 			return "You win"
+# 		else: 
+# 			return "You lose"	
+# res = Harry("Avada Kedavra","Crucio","Imperio")
+# print(res.ch())
 
 
